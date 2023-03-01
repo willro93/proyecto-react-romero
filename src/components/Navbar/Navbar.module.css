@@ -1,0 +1,13 @@
+.navbarStyle {
+  background-color: rgb(193, 255, 148);
+  min-height: 80px;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+}
+.navbarMenu {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  gap: 200px;
+}
