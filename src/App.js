@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <ItemListContainer greeting={"Hola usuario"} />
+      <ItemListContainer />
       <ItemCount stock={5} initial={1} onAdd={onAdd} />
     </div>
   );
