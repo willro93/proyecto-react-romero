@@ -32,29 +32,27 @@ const ItemCount = ({ stock, initial, onAdd }) => {
 
   return (
     <>
-      <div className="main_div">
-        <div className={style.centerdiv}>
-          <h1>{count}</h1>
-          <div className="btn_div">
-            <Tooltip title="Agregar Productos">
-              <Button onClick={sumar}>
-                <AddIcon />
-              </Button>
-            </Tooltip>
-            <Button onClick={restar}>
-              <RemoveIcon />
+      <div className={style.centerdiv}>
+        <h1>{count}</h1>
+        <div className={style.buttonStyle}>
+          <Tooltip title="Agregar Productos">
+            <Button onClick={sumar}>
+              <AddIcon />
             </Button>
-          </div>
-          <ThemeProvider theme={theme}>
-            <Button
-              variant="contained"
-              color="primary"
-              onClick={() => onAdd(count)}
-            >
-              Agregar al carrito
-            </Button>
-          </ThemeProvider>
+          </Tooltip>
+          <Button onClick={restar}>
+            <RemoveIcon />
+          </Button>
         </div>
+        <ThemeProvider theme={theme}>
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={() => onAdd(count)}
+          >
+            Agregar al carrito
+          </Button>
+        </ThemeProvider>
       </div>
     </>
   );

@@ -1,12 +1,24 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { products } from "../../productsMock";
+import ItemList from "./ItemList";
+
 
 const ItemListContainer = () => {
   const [item, setItem] = useState([]);
 
+  useEffect(() => {
+    const productList = new Promise((resolve, reject) => {
+      resolve(products);
+    });
+    productList.then((res) => {
+      setItem(res);
+    });
+  }, []);
+  console.log(item);
+
   return (
     <div>
-      <h1></h1>
+      <ItemList item={item} />
     </div>
   );
 };

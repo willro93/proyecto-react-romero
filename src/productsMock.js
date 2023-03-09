@@ -3,6 +3,7 @@ export const products = [
     id: 1,
     name: "Shampoo de Almendras",
     price: "$175.00",
+    stock: 10,
     category: "shampoo",
     description:
       "Estimula el crecimiento, además contienen altas cantidades de vitamina E.",
@@ -12,6 +13,7 @@ export const products = [
     id: 2,
     name: "Shampoo de Café y canela",
     price: "$175.00",
+    stock: 10,
     category: "shampoo",
     description: "Es excelente para fortalecer el cabello y hacerlo crecer.",
     img: "https://res.cloudinary.com/ds3o8k2lz/image/upload/v1678183585/productos/shampoos/cafecanela_wbfi44.jpg",
@@ -20,6 +22,7 @@ export const products = [
     id: 3,
     name: "Shampoo de Carbón Activado",
     price: "$175.00",
+    stock: 10,
     category: "shampoo",
     description:
       "Los tensioactivos que usamos en conjunto con la variedad de ingredientes hidratan el cuero cabelludo graso.",
@@ -29,6 +32,7 @@ export const products = [
     id: 4,
     name: "Shampoo de Romero y Cola de Caballo",
     price: "$175.00",
+    stock: 10,
     category: "shampoo",
     description:
       "Ayuda con la caída de cabello por estrés, mejora las condiciones de la alopecia.",
@@ -38,6 +42,7 @@ export const products = [
     id: 5,
     name: "Shampoo de Almendras",
     price: "$175.00",
+    stock: 10,
     category: "shampoo",
     description:
       "Las almendras reparan el cabello seco y maltratado, lo fortalecen y reducen las puntas abiertas.",
@@ -47,6 +52,7 @@ export const products = [
     id: 6,
     name: "Shampoo de Miel",
     price: "$175.00",
+    stock: 10,
     category: "shampoo",
     description:
       "Es un suavizante natural, actúa como acondicionador y alisa el cabello.",
@@ -56,6 +62,7 @@ export const products = [
     id: 7,
     name: "Shampoo de Rosas",
     price: "$175.00",
+    stock: 10,
     category: "shampoo",
     description:
       "Las rosas siempre han sido parte de la cosmética por su delicioso aroma y sus propiedades.",
@@ -65,6 +72,7 @@ export const products = [
     id: 8,
     name: "Acondicionador de Linaza",
     price: "$120.00",
+    stock: 10,
     category: "acondicionador",
     description:
       "Es muy bueno y recomendado para tratar y combatir las puntas abiertas y dañadas.",
@@ -74,6 +82,7 @@ export const products = [
     id: 9,
     name: "Acondicionador de 4 óleos",
     price: "$120.00",
+    stock: 10,
     category: "acondicionador",
     description:
       "Para cabello seco, maltratado, sin vida, para cabello reseco por tinte, plancha, secadora.",
@@ -83,6 +92,7 @@ export const products = [
     id: 10,
     name: "Acondicionador de Ricino",
     price: "$120.00",
+    stock: 10,
     category: "acondicionador",
     description:
       "El aceite de ricino ayuda para que el cabello crezca más rápido.",
@@ -92,6 +102,7 @@ export const products = [
     id: 11,
     name: "Acondicionador de Aguacate",
     price: "$120.00",
+    stock: 10,
     category: "acondicionador",
     description:
       "El aceite de aguacate ayuda a tener una melena suave, sedosa y regenerada.",
@@ -101,6 +112,7 @@ export const products = [
     id: 12,
     name: "Acondicionador de Coco",
     price: "$120.00",
+    stock: 10,
     category: "acondicionador",
     description:
       "El aceite de coco tiene un efecto reparador y revitalizante que protege y nutre el cabello a profundidad.",
@@ -110,6 +122,7 @@ export const products = [
     id: 13,
     name: "Hot Oil de Papaya",
     price: "$140.00",
+    stock: 10,
     category: "hotoil",
     description:
       "La papaya es rica en vitaminas A y C, antioxidantes y minerales esenciales que ayudan al crecimiento de un pelo suave y brillante.",
@@ -119,6 +132,7 @@ export const products = [
     id: 14,
     name: "Hot Oil de Mango",
     price: "$140.00",
+    stock: 10,
     category: "hotoil",
     description:
       "La pulpa del mango es ideal para suavizar y proteger el cabello de problemas como la resequedad.",
@@ -128,6 +142,7 @@ export const products = [
     id: 15,
     name: "Hot Oil de Chocolate",
     price: "$140.00",
+    stock: 10,
     category: "hotoil",
     description: "El cacao aporta nutrientes e hidratación a tu cabello.",
     img: "https://res.cloudinary.com/ds3o8k2lz/image/upload/v1678183662/productos/hotoil/ho_chocolate_rrad44.jpg",
@@ -136,6 +151,7 @@ export const products = [
     id: 16,
     name: "Desodorante de Zinc",
     price: "$130.00",
+    stock: 10,
     category: "desodorante",
     description:
       "El óxido de zinc es un compuesto eficaz a la hora de contrarrestar el mal olor.",
@@ -145,6 +161,7 @@ export const products = [
     id: 17,
     name: "Desodorante de Bicarbonato",
     price: "$130.00",
+    stock: 10,
     category: "desodorante",
     description:
       "El bicarbonato es uno de los grandes aliados para evitar el mal olor de las axilas.",
