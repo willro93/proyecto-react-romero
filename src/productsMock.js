@@ -40,13 +40,12 @@ export const products = [
   },
   {
     id: 5,
-    name: "Shampoo de Almendras",
+    name: "Shampoo de Hibisco y Linaza",
     price: "$175.00",
     stock: 10,
     category: "shampoo",
-    description:
-      "Las almendras reparan el cabello seco y maltratado, lo fortalecen y reducen las puntas abiertas.",
-    img: "https://res.cloudinary.com/ds3o8k2lz/image/upload/v1678183585/productos/shampoos/almendra_yhukyc.jpg",
+    description: "El hibisco aporta nutrientes, previene la caída del cabello, combate la caspa, alivia la resequedad.",
+    img: "https://res.cloudinary.com/ds3o8k2lz/image/upload/v1678183585/productos/shampoos/hibisco_ewnivc.jpg",
   },
   {
     id: 6,
