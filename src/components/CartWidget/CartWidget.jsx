@@ -1,9 +1,13 @@
 import { TiShoppingCart } from "react-icons/ti";
+import { Link } from "react-router-dom";
+
 const CartWidget = () => {
   return (
-    <div style={{ marginTop: 15 }}>
-      <TiShoppingCart size={40} />
-    </div>
+    <Link to={"/cart"} style={{color:"black"}}>
+      <div style={{ marginTop: 15 }}>
+        <TiShoppingCart size={40} />
+      </div>
+    </Link>
   );
 };
 
