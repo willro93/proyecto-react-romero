@@ -1,6 +1,5 @@
 import Navbar from "./components/Navbar/Navbar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
-import ConsumiendoApis from "./components/ConsumiendoApis/ConsumiendoApis";
 import Cart from "./components/Cart/Cart";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
