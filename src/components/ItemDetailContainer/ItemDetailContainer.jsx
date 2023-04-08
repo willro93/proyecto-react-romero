@@ -1,3 +1,5 @@
+import { useContext } from "react";
+import { CartContext } from "../../Context/CartContext";
 import { useParams } from "react-router-dom";
 import { products } from "../../productsMock";
 import ItemCount from "../ItemCount/ItemCount";
@@ -5,10 +7,12 @@ import ItemCount from "../ItemCount/ItemCount";
 const ItemDetailContainer = () => {
   const { id } = useParams();
 
+  const {addToCart} = useContext(CartContext)
+
   const productInfo = products.find((elemento) => elemento.id === parseInt(id));
 
   const onAdd = (productos) => {
-    alert(`Se agregaron al carrito ${productos} productos`);
+    addToCart(productInfo)
   };
 
   return (
