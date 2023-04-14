@@ -11,8 +11,13 @@ const ItemDetailContainer = () => {
 
   const productInfo = products.find((elemento) => elemento.id === parseInt(id));
 
-  const onAdd = (productos) => {
-    addToCart(productInfo)
+  const onAdd = (cantidad) => {
+
+    let productos ={
+      ...productInfo,
+      quantity: cantidad
+    }
+    addToCart(productos)
   };
 
   return (
