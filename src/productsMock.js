@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     name: "Shampoo de Almendras",
-    price: "$175.00",
+    price: "175.00",
     stock: 10,
     category: "shampoo",
     description:
@@ -12,7 +12,7 @@ export const products = [
   {
     id: 2,
     name: "Shampoo de Café y canela",
-    price: "$175.00",
+    price: "175.00",
     stock: 10,
     category: "shampoo",
     description: "Es excelente para fortalecer el cabello y hacerlo crecer.",
@@ -21,7 +21,7 @@ export const products = [
   {
     id: 3,
     name: "Shampoo de Carbón Activado",
-    price: "$175.00",
+    price: "175.00",
     stock: 10,
     category: "shampoo",
     description:
@@ -31,7 +31,7 @@ export const products = [
   {
     id: 4,
     name: "Shampoo de Romero y Cola de Caballo",
-    price: "$175.00",
+    price: "175.00",
     stock: 10,
     category: "shampoo",
     description:
@@ -41,7 +41,7 @@ export const products = [
   {
     id: 5,
     name: "Shampoo de Hibisco y Linaza",
-    price: "$175.00",
+    price: "175.00",
     stock: 10,
     category: "shampoo",
     description: "El hibisco aporta nutrientes, previene la caída del cabello, combate la caspa, alivia la resequedad.",
@@ -50,7 +50,7 @@ export const products = [
   {
     id: 6,
     name: "Shampoo de Miel",
-    price: "$175.00",
+    price: "175.00",
     stock: 10,
     category: "shampoo",
     description:
@@ -60,7 +60,7 @@ export const products = [
   {
     id: 7,
     name: "Shampoo de Rosas",
-    price: "$175.00",
+    price: "175.00",
     stock: 10,
     category: "shampoo",
     description:
@@ -70,7 +70,7 @@ export const products = [
   {
     id: 8,
     name: "Acondicionador de Linaza",
-    price: "$120.00",
+    price: "120.00",
     stock: 10,
     category: "acondicionador",
     description:
@@ -80,7 +80,7 @@ export const products = [
   {
     id: 9,
     name: "Acondicionador de 4 óleos",
-    price: "$120.00",
+    price: "120.00",
     stock: 10,
     category: "acondicionador",
     description:
@@ -90,7 +90,7 @@ export const products = [
   {
     id: 10,
     name: "Acondicionador de Ricino",
-    price: "$120.00",
+    price: "120.00",
     stock: 10,
     category: "acondicionador",
     description:
@@ -100,7 +100,7 @@ export const products = [
   {
     id: 11,
     name: "Acondicionador de Aguacate",
-    price: "$120.00",
+    price: "120.00",
     stock: 10,
     category: "acondicionador",
     description:
@@ -110,7 +110,7 @@ export const products = [
   {
     id: 12,
     name: "Acondicionador de Coco",
-    price: "$120.00",
+    price: "120.00",
     stock: 10,
     category: "acondicionador",
     description:
@@ -120,7 +120,7 @@ export const products = [
   {
     id: 13,
     name: "Hot Oil de Papaya",
-    price: "$140.00",
+    price: "140.00",
     stock: 10,
     category: "hotoil",
     description:
@@ -130,7 +130,7 @@ export const products = [
   {
     id: 14,
     name: "Hot Oil de Mango",
-    price: "$140.00",
+    price: "140.00",
     stock: 10,
     category: "hotoil",
     description:
@@ -140,7 +140,7 @@ export const products = [
   {
     id: 15,
     name: "Hot Oil de Chocolate",
-    price: "$140.00",
+    price: "140.00",
     stock: 10,
     category: "hotoil",
     description: "El cacao aporta nutrientes e hidratación a tu cabello.",
@@ -149,7 +149,7 @@ export const products = [
   {
     id: 16,
     name: "Desodorante de Zinc",
-    price: "$130.00",
+    price: "130.00",
     stock: 10,
     category: "desodorante",
     description:
@@ -159,7 +159,7 @@ export const products = [
   {
     id: 17,
     name: "Desodorante de Bicarbonato",
-    price: "$130.00",
+    price: "130.00",
     stock: 10,
     category: "desodorante",
     description:
