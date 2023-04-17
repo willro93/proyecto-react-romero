@@ -32,7 +32,7 @@ const ItemCount = ({ stock, initial, onAdd }) => {
 
   return (
     <>
-      <div className={style.centerdiv}>
+      <div className={style.centerDiv}>
         <h1>{count}</h1>
         <div className={style.buttonStyle}>
           <Tooltip title="Agregar Productos">

@@ -16,7 +16,7 @@ const Cart = () => {
             <h3>{element.name}</h3>
             <img src={element.img} style={{ width: 250 }} />
             <h3>Cantidad: {element.quantity}</h3>
-            <h3>Total: {element.price}</h3>
+            <h3>Total: ${element.price}</h3>
           </div>
         );
       })}

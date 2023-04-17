@@ -1,4 +1,5 @@
 import { useState } from "react";
+import style from "./Form.module.css"
 
 const Form = () => {
   const [userData, setUserData] = useState({
@@ -45,8 +46,9 @@ const Form = () => {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
+    <div className={style.formPosition}>
+      <h1>Regístrate para recibir notificaciones y promociones</h1>
+      <form onSubmit={handleSubmit} className={style.inputPosition}>
         <input
           type="text"
           placeholder="Ingrese su nombre"

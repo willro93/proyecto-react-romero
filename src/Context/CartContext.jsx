@@ -44,12 +44,24 @@ const CartContextProvider = ({ children }) => {
 
     return total;
   };
+  //Función que detalla los elementos totales del carrito (sea el mismo producto o no)
+  const getTotalProduct=() =>{
+    const total = cart.reduce((acc, cur)=>{
+      return(
+        acc+cur.quantity
+      )
+    }, 0)
+
+    return total
+
+  }
 
   let data = {
     cart,
     addToCart,
     emptyCart,
     getTotalPrice,
+    getTotalProduct
   };
 
   return <CartContext.Provider value={data}>{children}</CartContext.Provider>;
