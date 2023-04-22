@@ -14,7 +14,6 @@ const Navbar = () => {
         />
       </Link>
       <ul className={style.navbarMenu}>
-        <Link style={{ textDecoration: "none" }}>Nosotros</Link>
         <Link to={"/category/shampoo"} style={{ textDecoration: "none" }}>Shampoo Sólido</Link>
         <Link to={"/category/acondicionador"} style={{ textDecoration: "none" }}>Acondicionador Sólido</Link>
         <Link to={"/category/hotoil"} style={{ textDecoration: "none" }}>Hot Oil</Link>

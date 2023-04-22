@@ -1,3 +1,6 @@
+.formBackground{
+    background-color: rgb(242, 246, 228);
+}
 .formPosition{
     display: flex;
     justify-content: center;

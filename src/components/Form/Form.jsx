@@ -46,7 +46,8 @@ const Form = () => {
   };
 
   return (
-    <div className={style.formPosition}>
+    <div className={style.formBackground}>
+      <div className={style.formPosition}>
       <h1>Regístrate para recibir notificaciones y promociones</h1>
       <form onSubmit={handleSubmit} className={style.inputPosition}>
         <input
@@ -76,6 +77,8 @@ const Form = () => {
         <button type="submit">Enviar formulario</button>
       </form>
     </div>
+    </div>
+    
   );
 };
 
