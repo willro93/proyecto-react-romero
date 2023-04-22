@@ -7,7 +7,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles"; //Se agregan 
 import { green } from "@mui/material/colors"; //Se importa un color en específico
 import style from "./ItemCount.module.css";
 
-const ItemCount = ({ stock, initial, onAdd }) => {
+const ItemCount = ({ stock, initial=1, onAdd }) => {
   const [count, setCount] = useState(initial);
 
   const sumar = () => {
@@ -32,7 +32,7 @@ const ItemCount = ({ stock, initial, onAdd }) => {
 
   return (
     <>
-      <div className={style.centerdiv}>
+      <div className={style.centerDiv}>
         <h1>{count}</h1>
         <div className={style.buttonStyle}>
           <Tooltip title="Agregar Productos">

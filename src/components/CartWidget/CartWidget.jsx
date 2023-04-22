@@ -5,12 +5,14 @@ import { useContext } from "react";
 import { CartContext } from "../../Context/CartContext";
 
 const CartWidget = () => {
-  const {cart} = useContext(CartContext);
+  const {getTotalProduct} = useContext(CartContext);
+
+  const total=getTotalProduct()
 
   return (
     <Link to={"/cart"} style={{ color: "black" }}>
-      <div className={style.bubblecounter}>
-        <span>{cart.length  }</span>
+      <div className={style.bubbleCounter}>
+        <span>{total}</span>
       </div>
       <div style={{ marginTop: -15 }}>
         <TiShoppingCart size={40} />
