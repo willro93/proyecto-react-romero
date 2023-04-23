@@ -1,0 +1,6 @@
+.cartStyle{
+    background-color: rgb(242, 246, 228);
+    display: flex;
+    justify-content: space-around;
+    
+}

@@ -3,6 +3,7 @@ import { CartContext } from "../../Context/CartContext";
 import Swal from 'sweetalert2'
 import FormCheckout from "../FormCheckout/FormCheckout";
 import { Link } from "react-router-dom";
+import style from "./Cart.module.css"
 
 
 
@@ -43,7 +44,7 @@ const Cart = () => {
   }
 
   return (
-    <div>
+    <div className={style.cartStyle}>
       {
         !showForm ? (  <div
           style={{ width: "60%", display: "flex", justifyContent: "space-around" }}
@@ -58,6 +59,7 @@ const Cart = () => {
                 <button onClick={() => deleteProductById(element.id)}>Eliminar</button>
                 
               </div>
+              
             );
           })}
           

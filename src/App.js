@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer"
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import Cart from "./components/Cart/Cart";
 import Form from "./components/Form/Form";
@@ -20,6 +21,7 @@ function App() {
           <Route path="/formulario" element={<Form />} />
           <Route path="*" element={<h1> error 404: Not found </h1>} />
         </Routes>
+        <Footer/>
       </CartContextProvider>
     </BrowserRouter>
   );
