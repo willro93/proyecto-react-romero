@@ -1,11 +1,11 @@
 import { useContext, useEffect, useState } from "react";
 import { CartContext } from "../../Context/CartContext";
 import { useParams } from "react-router-dom";
-import { products } from "../../productsMock";
-import ItemCount from "../ItemCount/ItemCount";
+//import { products } from "../../productsMock";
 import Swal from 'sweetalert2'
 import {getDoc, collection, doc} from "firebase/firestore"
 import {db} from "../../firebaseConfig"
+import ItemDetail from "./ItemDetail";
 
 const ItemDetailContainer = () => {
   const { id } = useParams();
@@ -52,10 +52,7 @@ const ItemDetailContainer = () => {
 
   return (
     <div>
-      <h1>{productInfo.name}</h1>
-      <img src={productInfo.img} alt="" />
-      <div>{productInfo.description}</div>
-      <ItemCount stock={productInfo.stock} initial={trueStock} onAdd={onAdd} />
+      <ItemDetail productInfo={productInfo} onAdd={onAdd} trueStock={trueStock}/>
     </div>
   );
 };

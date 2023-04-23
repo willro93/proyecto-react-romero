@@ -1,0 +1,8 @@
+.detailStyle{
+    background-color: rgb(242, 246, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
